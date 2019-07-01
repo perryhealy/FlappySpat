@@ -35,10 +35,10 @@ public class Spat : MonoBehaviour {
         if (collision.gameObject.tag.Equals("Ground"))
         {
             anim.SetTrigger("Out");
-            GameControl.instance.SpatFell();
         } else 
         {
             anim.SetTrigger("Fall");
         }
+        GameControl.instance.SpatFell();
   	}
 }
