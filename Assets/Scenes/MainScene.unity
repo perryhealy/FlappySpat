@@ -1330,4 +1330,4 @@ MonoBehaviour:
     type: 2}
   spawnRate: 4
   columnMin: -1
-  columnMax: 1
+  columnMax: 2
